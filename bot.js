@@ -20,7 +20,7 @@ bot.on('ready', () => {
       console.log(`ON ${bot.guilds.size} Servers '     Bot By LEGEND' `);
     console.log(`----------------`);
   console.log(`Logged in as ${bot.user.tag}!`);
-bot.user.setGame(` DOLLAR SHOP `,"http://twitch.tv/SHOP")
+bot.user.setGame(` WAN SHOP `,"http://twitch.tv/SHOP")
 bot.user.setStatus("dnd")
 });
 
