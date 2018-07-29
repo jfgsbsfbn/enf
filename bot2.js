@@ -4,7 +4,7 @@ const ytdl = require('ytdl-core');
 const request = require('request');
 const devs = ['396958215377780747','463780006607192081'];
 const child_process = require("child_process");
-const adminprefix = "-^";
+const adminprefix = "!";
 const fs = require('fs');
 const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
@@ -89,7 +89,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-if (message.content.startsWith("/uptime")) {
+if (message.content.startsWith("!uptime")) {
     let uptime = client.uptime;
 
     let days = 0;
