@@ -25,6 +25,7 @@ j = 1;
 	
 });
 
+
 client.on('ready', () => {
     client.user.setGame(` سوبر سيرفر`)
   console.log(`Logged in as ${client.user.tag}!`);
