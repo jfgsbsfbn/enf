@@ -55,7 +55,7 @@ if (message.content.startsWith(prefix + 'SETNAME')) {
       message.channel.sendMessage(`**${argresult}** : تم بنجاح تغيير الاسم ?`)
   return message.reply("**تم تغيير الاسم البوت بنجاح ?**");
 } else
-if (message.content.startsWith(prefix + 'SETAVTAR')) {
+if (message.content.startsWith(prefix + 'SETAVATAR')) {
   client.user.setAvatar(argresult);
     message.channel.sendMessage(`**${argresult}** : تم تغيير صورة البوت بنجاح ?`);
 
