@@ -287,7 +287,7 @@ ${thisMessage}\`\`\`
       })}});
 
 client.on('message', message => {
-if (message.content.startsWith("/uptime")) {
+if (message.content.startsWith("!uptime")) {
     if(!message.channel.guild) return message.reply('** __This command only for servers:no_entry:__  **');
     let uptime = client.uptime;
 
@@ -506,7 +506,7 @@ collector7.on('collect', r => {
 
 
 client.on('message' , async (message) => {
- if (message.content.startsWith('/info-bot')) {
+ if (message.content.startsWith('!info-bot')) {
     if(!message.channel.guild) return message.reply('** __This command only for servers:no_entry:__  **');
  const os = require('os');
     const arch = os.arch()
@@ -529,7 +529,7 @@ client.on('message' , async (message) => {
 
 
 client.on("message", message => {
-    if (message.content === "-^help")  {
+    if (message.content === "!help")  {
   if(!message.channel.guild) return message.reply('** __This command only for servers:no_entry:__  **');
 
 
@@ -545,33 +545,33 @@ client.on("message", message => {
 ╰╯╱╰┻━┫╭━┻╯╰┻╯╰╯╰━━━┻━━┻━━┻━━┻━━╯
 ╱╱╱╱╱╱┃┃
 ╱╱╱╱╱╱╰╯
-_─══════ {✯Alpha Codes✯} ══════─_
+_─══════ {✯ٍSuper Codes✯} ══════─_
       __الاوامرالخاصة__:spy::skin-tone-1: 
-\`\`-^js\`\` | امر نشر الاكوادر فقط للسبورت بلس
-\`\`-^ قريبا\`\` |
-\`\`-^ قريبا\`\` |
+\`\`!js\`\` | امر نشر الاكوادر فقط للسبورت بلس
+\`\`! قريبا\`\` |
+\`\`! قريبا\`\` |
 ∞⋅∾◅▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▻∾⋅∞
 __الاوامر العامة__:tools: 
-\`\`/uptime\`\`   | لتعرف متا اشتغل البوت
-\`\`/info-bot\`\` | معلومات عن البوت 
-\`\`-^id\`\` | لاضهار معلومات عن انشاء حسابك ودخولك للسيرفر
-\`\`القرآن\`\`    | لتشغيل القران الكريم
+\`\`!uptime\`\`   | لتعرف متا اشتغل البوت
+\`\`!info-bot\`\` | معلومات عن البوت 
+\`\`!id\`\` | لاضهار معلومات عن انشاء حسابك ودخولك للسيرفر
+\`\`القران\`\`    | لتشغيل القران الكريم
 __الاوامر فقط للسيرفرات __:no_entry: :no_entry_sign: 
 ∞⋅∾◅▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▻∾⋅∞
 __اوامر الاكريديت__:credit_card:
-\`\`-^credits\`\` | لمعرفة كم عدد الاكريديت
-\`\`-^profile\`\` | امر اضهار البروفايل
-\`\`-^daily\`\` | امر المكاقئة اليومية 200 كريديت
-\`\`-^title\`\` | لتغيير الوصف يدعم الانجليزية فقط
-\`\`-^trans\`\` | للتحويل البنكي 
+\`\`!credits\`\` | لمعرفة كم عدد الاكريديت
+\`\`!profile\`\` | امر اضهار البروفايل
+\`\`!daily\`\` | امر المكاقئة اليومية 200 كريديت
+\`\`!title\`\` | لتغيير الوصف يدعم الانجليزية فقط
+\`\`!trans\`\` | للتحويل البنكي 
 ∞⋅∾◅▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▻∾⋅∞
 __اوامر صاحب البوت__:cherry_blossom: 
-\`\`/ls\`\`  | امر الستنج / امر الاستماع
-\`\`/ply\`\` | امر البليانج
-\`\`/wt\`\`  | امر الوتشنج 
-\`\`/st\`\`  | امر الستريمنج
-\`\`/restart\`\`| امر الريستارت
-\`\`/bc\`\`| امر البروكسدات
+\`\`!ls\`\`  | امر الستنج / امر الاستماع
+\`\`!ply\`\` | امر البليانج
+\`\`!wt\`\`  | امر الوتشنج 
+\`\`!st\`\`  | امر الستريمنج
+\`\`!restart\`\`| امر الريستارت
+\`\`!bc\`\`| امر البروكسدات
     _─══════ {✯Alpha Codes✯} ══════─_
 **`)
 
@@ -615,7 +615,7 @@ client.on("message", message => {
   };
  
  
-fs.writeFile('./profile.json', JSON.stringify(profile), (err) => {
+fs.writeFile('profile.json', JSON.stringify(profile), (err) => {
 if (err) console.error(err);
 })
 });
